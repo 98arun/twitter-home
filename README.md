@@ -1,6 +1,7 @@
+# Twitter Home Page
 This is Twitter's home page, which was created with HTML, CSS, and some basic JavaScript.
 
-#Overview:- The page is divided into two sections.
+Overview:- The page is divided into two sections.
 
 - The first one is the header section. 
 - the second one is the main section.
@@ -35,5 +36,6 @@ Search section:-
 
 Draw.io attachment:-
 
+![twitter home(clone)](https://user-images.githubusercontent.com/82587103/129725638-81abf05f-6927-4401-a747-3d2bb6cec171.png)
 
 
