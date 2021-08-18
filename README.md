@@ -1,4 +1,5 @@
 This is Twitter's home page, which was created with HTML, CSS, and some basic JavaScript.
+# Demo link:-(https://98arun.github.io/twitter-home/)
 
 #Overview:- The page is divided into two sections.
 
@@ -33,7 +34,8 @@ Search section:-
 - The below search box have some content-box
 - below the content box, there is another box and footer.
 
-Draw.io attachment:-
+![twitter home (clone)](https://user-images.githubusercontent.com/82587103/129891597-f8a67302-e8f0-4efe-afbc-d8cd809f2d13.png)
+
 
 
 
