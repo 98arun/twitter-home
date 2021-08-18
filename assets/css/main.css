@@ -12,10 +12,13 @@ body {
 }
 .header {
   display: flex;
-  width: 20%;
+  /* width: 20%; */
   height: 100vh;
   flex-direction: column;
   overflow: auto;
+  position: fixed;
+  z-index: 9;
+  background-color: #fff;
 }
 .header-items {
   display: flex;
@@ -53,6 +56,12 @@ body {
   width: 30px;
   height: 30px;
   fill: #1da1f2;
+  padding: 5px;
+  margin: 5px;
+}
+.svg-tw:hover {
+  background-color: rgba(15, 147, 228, 0.1);
+  border-radius: 50%;
 }
 .svg-sm {
   width: 26px;
@@ -79,7 +88,7 @@ body {
   padding: 5px;
   display: flex;
   position: absolute;
-  bottom: 10px;
+  bottom: 5px;
   box-sizing: border-box;
   cursor: pointer;
 }
@@ -100,6 +109,8 @@ body {
   display: flex;
   flex-direction: row;
   width: 80%;
+  position: relative;
+  left: 20%;
 }
 .post {
   display: flex;
@@ -116,6 +127,10 @@ body {
   padding: 10px;
   border-bottom: 0.1px solid silver;
   box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #fff;
 }
 .heading-icon h4 {
   color: #000;
@@ -167,12 +182,12 @@ body {
 .media-icons {
   display: flex;
   flex-direction: row;
-  height: 20px;
-  padding: 5px;
   fill: #1da1f2;
 }
 .media-icons svg {
   margin-right: 10px;
+  height: 20px;
+  padding: 5px;
 }
 .tweet-btn-fade {
   width: 15%;
@@ -188,11 +203,154 @@ body {
   font-family: sans-serif;
   opacity: 50%;
 }
+.bg-white {
+  height: 60px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 2;
+  align-items: center;
+  display: flex;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 100%;
+  padding-bottom: 15px;
+  border-bottom: 1px solid silver;
+}
+.card:hover {
+  cursor: pointer;
+  background-color: rgb(243, 243, 243);
+}
+.card-col1 {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  padding: 10px;
+}
+.card-col1 img {
+  border-radius: 50%;
+  width: 70px;
+  object-fit: none;
+}
+.card-col2 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.card-tag {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  align-items: center;
+}
+.card-tag a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.card-tag span {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 59%;
+}
+.card-tag a svg {
+  height: 20px;
+  padding: 5px;
+  fill: #1da1f2;
+}
+.card-para {
+  margin: 6px 0;
+  width: 90%;
+  line-height: 1.2;
+}
+.card-para a {
+  padding-right: 5px;
+  text-decoration: none;
+  color: #1da1f2;
+}
+.bold {
+  font-weight: bolder;
+  color: #000;
+}
+.card-image img {
+  width: 95%;
+  border-radius: 30px 30px 0 0;
+}
+.card-image p {
+  background-color: #fff;
+  border: 1px solid #d8dbdb;
+  color: #878a8a;
+  width: 93%;
+  line-height: 1.5;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 0 0 30px 30px;
+}
+.card-image p:hover {
+  background-color: rgb(243, 243, 243);
+}
+.card-icon {
+  width: 80%;
+  justify-content: space-between;
+  display: flex;
+  margin: 10px;
+}
+.card-icon a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #878a8a;
+}
+.card-icon svg {
+  width: 26px;
+  height: 26px;
+  fill: #878a8a;
+  padding: 2px;
+}
+.svg-hover {
+  width: 100%;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+.svg-hover-1:hover {
+  fill: #1da1f2;
+  background-color: rgba(15, 147, 228, 0.1);
+  border-radius: 50%;
+}
+.svg-hover-2:hover {
+  background-color: rgba(23, 191, 99, 0.1);
+  fill: rgb(23, 191, 99);
+}
+.svg-hover-3:hover {
+  fill: rgb(224, 36, 94);
+  background-color: rgba(224, 36, 94, 0.1);
+}
+.card-icon .blue:hover {
+  color: #1da1f2;
+}
+.card-icon .green:hover {
+  color: rgb(23, 191, 99);
+}
+.card-icon .pink:hover {
+  color: rgb(224, 36, 94);
+}
+
 .search-box {
   display: flex;
   flex-direction: column;
   width: 35%;
-  margin: 20px;
+  margin: 0 20px;
 }
 .search-input {
   width: 100%;
@@ -256,4 +414,25 @@ body {
 }
 .show a:hover {
   opacity: 50%;
+}
+.footer {
+  color: #333;
+  margin: 15px 10px;
+  width: 100%;
+  font-family: 2sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.footer a {
+  text-decoration: none;
+  color: #333;
+  padding-right: 5px;
+  line-height: 1.5;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.sticky-bar {
+  position: sticky;
+  top: -30%;
 }
