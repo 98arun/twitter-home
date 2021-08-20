@@ -1,33 +1,35 @@
+# Twitter Home Page (clone)
 This is Twitter's home page, which was created with HTML, CSS, and some basic JavaScript.
-# Demo link:-(https://98arun.github.io/twitter-home/)
+## Demo link:-(https://98arun.github.io/twitter-home/)
+### Desktop View:-![desktop view](https://user-images.githubusercontent.com/82587103/130221339-c76ca25b-a835-4ac3-9659-8c889f679d0b.png)
 
-#Overview:- The page is divided into two sections.
+### Overview:- The page is divided into two sections.
 
-- The first one is the header section. 
-- the second one is the main section.
+- The first one is the **Header section**. 
+- the second one is the **Main section**.
 
 
-Header section:- 
+### Header section:- 
 
 - The display of this section is flex and the direction of flex is column.
 - The header section consists of a Twitter logo and some buttons.
 - At the bottom, there is a user information button.
 - the position of this header is fixed.
 
-Main section:-
+### Main section:-
 
-- this section consists of two sections.
-	- first is the post section.
-	- The second is the search section.
+- Main section consists of two sections.
+	- first is the **Post section**.
+	- The second is the **Search section**.
 	- display of this section is flex and the direction is column.
 
-Post section:-
+### Post section:-
 
 - this section has a heading and icon and content justify as space between.
 - below the heading, there is an input box that has a placeholder as what's happening?
 - below the input box, there is a section that consists of several posts.
 
-Search section:-
+### Search section:-
 
 - this section has a position sticky.
 - at the top of this section, there is a search box.
