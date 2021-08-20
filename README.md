@@ -1,5 +1,5 @@
 # Twitter Home Page (clone)
-This is Twitter's home page, which was created with HTML, CSS, and some basic JavaScript.
+This Twitter's home page was created using HTML, CSS, and JavaScript. 
 ## Demo link:-(https://98arun.github.io/twitter-home/)
 ### Desktop View:-![desktop view](https://user-images.githubusercontent.com/82587103/130221339-c76ca25b-a835-4ac3-9659-8c889f679d0b.png)
 
@@ -24,7 +24,7 @@ This is Twitter's home page, which was created with HTML, CSS, and some basic Ja
 	- display of this section is flex and the direction is column.
 
 ### Post section:-
-
+- this section has a position sticky.
 - this section has a heading and icon and content justify as space between.
 - below the heading, there is an input box that has a placeholder as what's happening?
 - below the input box, there is a section that consists of several posts.
