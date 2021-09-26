@@ -1,6 +1,6 @@
 # Twitter Home Page (clone)
 This Twitter's home page was created using HTML, CSS, and JavaScript. 
-## Demo link:-(https://98arun.github.io/twitter-home/)
+## [Live Demo](https://98arun.github.io/twitter-home/)
 ### Desktop View:-![desktop view](https://user-images.githubusercontent.com/82587103/130221339-c76ca25b-a835-4ac3-9659-8c889f679d0b.png)
 
 ### Overview:- The page is divided into two sections.
